@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 19, 19);
+
+    & .container{
+        width: 50%;
+        text-align: center;
+        padding: 20px;
+        background-color: white;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+
+        & h1{
+            margin: 0px;
+        }
+
+        & .jokeBtn{
+            cursor: pointer;
+            border: none;
+            outline: none;
+            background-color: rgb(255, 115, 0);
+            padding: 8px 15px;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+}
+    }
+}
